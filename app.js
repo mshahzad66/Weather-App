@@ -61,26 +61,26 @@ async function checkweath(city) {
 //   }
 
 if(response.weather[0].main == 'Clouds'){
-    weather_image.src = "/assets/cloud.png";
+    weather_image.src = "/assets/cloud.webp";
 }
 else if (response.weather[0].main == 'Clear'){
-    weather_image.src = "/assets/clear.png";
+    weather_image.src = "/assets/clear.webp";
 
 }
 else if (response.weather[0].main == 'Rain'){
-    weather_image.src = "/assets/rain.png";
+    weather_image.src = "/assets/rain.webp";
 
 
 }else if (response.weather[0].main == 'Mist'){
-    weather_image.src = "/assets/mist.png";
+    weather_image.src = "/assets/mist.webp";
 
 
 }else if (response.weather[0].main == 'Snow'){
-    weather_image.src = "/assets/snow.png";
+    weather_image.src = "/assets/snow.webp";
 
 }
 else if (response.weather[0].main == 'Haze'){
-    weather_image.src = "/assets/haze.png";
+    weather_image.src = "/assets/haze.webp";
 
 }
   
